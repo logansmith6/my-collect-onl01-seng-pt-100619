@@ -6,7 +6,7 @@ while counter < collection.length do
 
   yield collection[counter]
   counter += 1
-  
+
 end
 return collection
 
