@@ -5,7 +5,7 @@ collection = []
 counter = 0
 while counter < array.length do
 
-  collection << yield array[counter]
+  collection << yield(array[counter])
   counter += 1
 
 end
