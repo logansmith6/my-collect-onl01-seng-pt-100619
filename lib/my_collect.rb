@@ -2,7 +2,7 @@
 def my_collect(collection)
 
 counter = 0
-while counter < collection.size do
+while counter < collection.length do
 
   yield collection[counter]
   counter += 1
